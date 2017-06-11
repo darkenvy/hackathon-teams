@@ -1,0 +1,7 @@
+<h1>Edit Team</h1>
+
+<form action="/teams/<%= team.name %>" class="put-form">
+  <input type="text" name="name" value="<%= team.name %>">
+  <input type="text" name="members" value="<%= team.members %>">
+  <button type="submit">Save Changes</button>
+</form>

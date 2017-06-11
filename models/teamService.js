@@ -54,7 +54,7 @@ function writeTeams(teamData) {
 module.exports = {
   allTeams: allTeams,
   getTeam: getTeam,
-  addTeam, addTeam,
+  addTeam: addTeam,
   deleteTeam: deleteTeam,
   editTeam: editTeam
 }
